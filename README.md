@@ -1,8 +1,8 @@
-# 🚀 Marketing Content AI Agent (Claude Powered)
+# Marketing Content AI Agent (Claude Powered)
 
 Generate compelling marketing content for multiple platforms using Anthropic's Claude AI.
 
-## ✨ Features
+## Features
 
 - **5 Platforms**: Twitter/X, LinkedIn, Email, Instagram, Facebook
 - **5 Tones**: Professional, Casual, Enthusiastic, Informative, Humorous
@@ -10,7 +10,7 @@ Generate compelling marketing content for multiple platforms using Anthropic's C
 - **Copy & Export**: One-click clipboard and file export
 - **Powered by Claude**: Using Anthropic's Claude Sonnet 4
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Get Your Claude API Key
 
@@ -44,7 +44,7 @@ npm run dev
 
 Visit http://localhost:3000
 
-## 💡 How to Use
+## How to Use
 
 1. **Enter Product Description**: Describe your product or campaign
 2. **Select Platform**: Choose your target platform
@@ -53,14 +53,14 @@ Visit http://localhost:3000
 5. **Generate**: Click "Generate Content"
 6. **Copy or Export**: Use individual copy buttons or export all
 
-## 📊 Cost Information
+## Cost Information
 
 Claude API is very affordable:
 - **Claude Sonnet 4**: ~$3 per million input tokens, ~$15 per million output tokens
 - Each generation costs approximately **$0.01-0.03**
 - Much more affordable than GPT-4!
 
-## 🎯 Example Use Cases
+## Example Use Cases
 
 ### E-commerce Product Launch
 ```
@@ -80,7 +80,7 @@ Professional house cleaning service. Eco-friendly products,
 background-checked staff, 100% satisfaction guarantee.
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 14 (App Router)
 - **Language**: TypeScript
@@ -88,7 +88,7 @@ background-checked staff, 100% satisfaction guarantee.
 - **AI**: Anthropic Claude API
 - **Icons**: Lucide React
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 marketing-ai-agent/
@@ -103,7 +103,7 @@ marketing-ai-agent/
 └── README.md                 # This file
 ```
 
-## 🚀 Deploy to Vercel
+## Deploy to Vercel
 
 1. Push your code to GitHub
 2. Import in Vercel
@@ -115,7 +115,7 @@ Or use Vercel CLI:
 vercel
 ```
 
-## ⚠️ Troubleshooting
+## Troubleshooting
 
 **Error: "Invalid API key"**
 - Make sure key starts with `sk-ant-`
@@ -131,7 +131,7 @@ vercel
 - Verify API key is correct
 - Check Anthropic API status
 
-## 🎨 Customization
+## Customization
 
 ### Add New Platform
 
@@ -156,19 +156,19 @@ Edit `app/api/generate/route.ts`:
 model: 'claude-sonnet-4-20250514', // or claude-3-5-sonnet-20241022 for cheaper
 ```
 
-## 📝 License
+## License
 
 MIT License - free to use for personal or commercial projects.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Feel free to open issues or submit PRs.
 
-## 📞 Support
+## Support
 
 - Check Anthropic docs: https://docs.anthropic.com/
 - API status: https://status.anthropic.com/
 
 ---
 
-Built with ❤️ using Next.js, TypeScript, and Claude AI
+Built with using Next.js, TypeScript, and Claude AI
