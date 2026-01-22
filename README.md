@@ -10,6 +10,10 @@ Generate compelling marketing content for multiple platforms using Anthropic's C
 - **Copy & Export**: One-click clipboard and file export
 - **Powered by Claude**: Using Anthropic's Claude Sonnet 4
 
+## Live Demo
+
+[View Live Demo](https://ai-marketing-agent-zeta.vercel.app/)
+
 ## Quick Start
 
 ### 1. Get Your Claude API Key
@@ -156,18 +160,21 @@ Edit `app/api/generate/route.ts`:
 model: 'claude-sonnet-4-20250514', // or claude-3-5-sonnet-20241022 for cheaper
 ```
 
+## Author
+
+**Gianluca Buonanno**
+- GitHub: [@gianluca-buonanno](https://github.com/gianluca-buonanno)
+- Project Link: [https://github.com/gianluca-buonanno/AI-Marketing-Agent](https://github.com/gianluca-buonanno/AI-Marketing-Agent)
+
+## Acknowledgments
+
+- [Anthropic](https://www.anthropic.com/) for Claude AI
+- [Vercel](https://vercel.com/) for hosting platform
+- [Next.js](https://nextjs.org/) team for the amazing framework
+
 ## License
 
 MIT License - free to use for personal or commercial projects.
-
-## Contributing
-
-Contributions welcome! Feel free to open issues or submit PRs.
-
-## Support
-
-- Check Anthropic docs: https://docs.anthropic.com/
-- API status: https://status.anthropic.com/
 
 ---
 
